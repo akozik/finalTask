@@ -1,15 +1,17 @@
 {
-  "name": "finalTask",
+  "name": "finaltask",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node taskRestFull.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kozik Aleksandr",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "material-design-icons": "^3.0.1"
   },
   "devDependencies": {},
   "repository": {
@@ -20,5 +22,5 @@
     "url": "https://github.com/akozik/finalTask/issues"
   },
   "homepage": "https://github.com/akozik/finalTask#readme",
-  "description": ""
+  "description": "Последнее задание Козик Александр по курсу frontEnd pro"
 }
