@@ -1,0 +1,128 @@
+html{
+    height:100%;
+    width:100%;
+}
+body {
+    background-image: url(../img/map_bg.png);
+    background-repeat: no-repeat;
+
+    height:100%;
+    width:100%;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height:100%;
+}
+.left-container{
+    width: 30%;
+    max-width: 30%;
+    height:100%;
+}
+.left-container-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.panel{
+    margin: 0;
+}
+.side-panel-right {
+    box-shadow: 5px 0 15px -6px #585858 inset;
+}
+.side-panel {
+    background-color: #ffffff;
+    padding: 10px;
+}
+.text-label{
+    font-size: 14px;
+    color: #aeaeae;
+    font-weight: 100;
+}
+.new-preview-task{
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+.new-form-task{
+    background-color: #ffffff;
+    padding: 10px;
+}
+.preview-text{
+    font-size: 20px;
+}
+.preview-location{
+    font-size: 13px;
+}
+.static-location{
+    font-size: 20px;
+    font-weight: bold;
+}
+.link_new_task{
+    font-size: 20px;
+    text-decoration: none;
+}
+.link_new_task:hover{
+    text-decoration: none;
+}
+.radios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.radios label {
+    cursor: pointer;
+    position: relative;
+    margin-left: 15px;
+    text-align: center;
+}
+
+input[type="radio"] {
+    opacity: 0; /* hidden but still tabable */
+    position: absolute;
+    margin: 2px;
+}
+
+input[type="radio"] + .icons {
+    border-radius: 20%;
+    padding: 2px;
+}
+
+input[type="radio"]:checked + .icons {
+    background-color: #728FFF;
+}
+
+input[type="radio"] + .texts {
+    border-radius: 30%;
+    padding: 10px;
+}
+
+input[type="radio"]:checked + .texts {
+    border: 1px solid #728FFF;
+}
+
+.icons{
+    height:60px;
+    width:60px;
+}
+.icon-text{
+    margin: 5px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.btn-primary {
+    background-color: #4C71FE;
+    border-color: #2C51DE;
+}
+
+.panel {
+    border-radius: 4px;
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+}
+a{
+    color: #6E8CFF;
+}
